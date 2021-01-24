@@ -1,10 +1,13 @@
-﻿namespace GeekbrainsStudy
+﻿namespace GrigorichIndieGames_CosmoLoader
 {
     internal sealed class GameContextLocatorInitializator
     {
         internal GameContextLocatorInitializator(Initializator initializator)
         {
-            initializator.SetLocator(new GameContextLocator());
+            var newController = new GameContextLocator();
+            initializator.SetLocator(newController);
+
+            Logger.Print(newController);
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     [CreateAssetMenu(fileName = "PlayerController", menuName = "Data/dataRobot")]
     internal sealed class PlayerData : ScriptableObject

@@ -1,4 +1,4 @@
-﻿namespace GeekbrainsStudy
+﻿namespace GrigorichIndieGames_CosmoLoader
 {
     internal sealed class UpdateControllerInitializator
     {
@@ -8,6 +8,8 @@
             var view = controller.gameObject.AddComponent<UpdateView>();
             locator.Register(newController);
             view.Initialize(newController);
+
+            Logger.Print(newController);
         }
     }
 }

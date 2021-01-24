@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
-    internal sealed class GameContextLocator
+    internal sealed class GameContextLocator :
+        IController
     {
         #region Fields
 

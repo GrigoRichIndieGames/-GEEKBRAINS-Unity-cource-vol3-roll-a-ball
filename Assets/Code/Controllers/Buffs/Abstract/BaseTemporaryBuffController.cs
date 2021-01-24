@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     internal abstract class BaseTemporaryBuffController :
         IController,

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     internal sealed class PlayerControllerInitializator
     {
@@ -19,6 +19,8 @@ namespace GeekbrainsStudy
 
             locator.Register(newController);
             locator.Get<UpdateController>().Register(newController);
+
+            Logger.Print(newController);
         }
     }
 }

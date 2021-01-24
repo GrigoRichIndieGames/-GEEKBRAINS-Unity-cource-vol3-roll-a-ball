@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     internal sealed class UpdateModel
     {

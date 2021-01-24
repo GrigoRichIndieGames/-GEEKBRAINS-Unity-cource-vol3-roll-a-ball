@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     [CreateAssetMenu(fileName = "BuffController", menuName = "Data/dataBuff")]
     internal sealed class BuffData : ScriptableObject

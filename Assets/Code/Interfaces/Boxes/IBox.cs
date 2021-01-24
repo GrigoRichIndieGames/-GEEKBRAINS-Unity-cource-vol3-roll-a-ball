@@ -1,8 +1,6 @@
-﻿namespace GeekbrainsStudy
+﻿namespace GrigorichIndieGames_CosmoLoader
 {
-    internal interface IBox :
-        IInteractable
+    internal interface IBox
     {
-        void Interact(PlayerModel model);
     }
 }

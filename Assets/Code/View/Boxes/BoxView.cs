@@ -1,29 +1,32 @@
 ﻿using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     class BoxView :
         MonoBehaviour,
-        IBuff
+        IBox
     {
         #region Fields
 
-        private IBuffController _controller;
+        private BaseBoxController _controller;
 
         #endregion
 
 
         #region Methods
 
-        public void Initial(IBuffController controller) => _controller = controller;
+        public void Initial(BaseBoxController controller) => _controller = controller;
 
         #endregion
 
 
-        #region Methods
+        #region UnityMethods
 
-        public void Interact(PlayerModel model) => _controller.SetBuff(model);
+        private void OnCollisionEnter(Collision collision)
+        {
+
+        }
 
         #endregion
     }

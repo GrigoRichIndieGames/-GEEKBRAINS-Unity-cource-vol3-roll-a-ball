@@ -1,4 +1,4 @@
-﻿namespace GeekbrainsStudy
+﻿namespace GrigorichIndieGames_CosmoLoader
 {
     internal sealed class Initializator
     {
@@ -16,7 +16,9 @@
             new GameContextLocatorInitializator(this);
             new UpdateControllerInitializator(controller, _locator);
             new InputSystemInitializator(_locator);
-            new PlayerControllerInitializator(0, controller, _locator);//TODO: save system
+            new EventControllerInitializator(_locator);
+            //TODO: save system
+            new PlayerControllerInitializator(0, controller, _locator);
             //new CameraControllerInitializator(controller, _locator);
         }
 

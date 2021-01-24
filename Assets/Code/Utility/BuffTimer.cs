@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     internal sealed class BuffTimer :
         ILogicUpdatable

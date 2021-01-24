@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
-    internal sealed class PlayerControllerState
+    internal sealed class PlayerState
     {
         internal Transform PlayerTransform;
         internal Rigidbody PlayerRigidbody;
@@ -13,7 +13,7 @@ namespace GeekbrainsStudy
         internal float JumpForce;
         internal bool IsGrounded;
 
-        internal PlayerControllerState(PlayerData data)
+        internal PlayerState(PlayerData data)
         {
             HealthPoint = data.HealthPoint;
             MoveSpeed = data.MoveSpeed;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GeekbrainsStudy
+namespace GrigorichIndieGames_CosmoLoader
 {
     internal static class ResourcesLoader
     {

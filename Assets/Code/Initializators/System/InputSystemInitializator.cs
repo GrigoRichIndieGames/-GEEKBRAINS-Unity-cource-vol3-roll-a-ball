@@ -1,4 +1,4 @@
-﻿namespace GeekbrainsStudy
+﻿namespace GrigorichIndieGames_CosmoLoader
 {
     internal sealed class InputSystemInitializator
     {
@@ -7,6 +7,8 @@
             var newController = new InputSystem();
             locator.Register(newController);
             locator.Get<UpdateController>().Register(newController);
+
+            Logger.Print(newController);
         }
     }
 }
