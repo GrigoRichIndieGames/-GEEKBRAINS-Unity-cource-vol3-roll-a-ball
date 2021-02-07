@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Start position
   layers:
   - Default
   - TransparentFX
@@ -13,6 +14,10 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - Wall
+  - Floor
+  - Box
   - 
   - 
   - 
@@ -31,11 +36,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Post-proccessing
   - 
   m_SortingLayers:
   - name: Default
